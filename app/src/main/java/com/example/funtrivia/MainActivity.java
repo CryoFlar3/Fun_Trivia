@@ -3,8 +3,11 @@ package com.example.funtrivia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private TextView factTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
